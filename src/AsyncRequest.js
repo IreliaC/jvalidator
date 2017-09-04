@@ -38,7 +38,7 @@ AsyncRequest.prototype.finish = function(){
     }
 }
 
-AsyncRequest.prototype.clear = function(){
+AsyncRequest.prototype.clear = function(22222){
     if(this.status!=0) return;
     this.reqs = [];
 }
