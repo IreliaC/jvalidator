@@ -31,7 +31,7 @@ AsyncRequest.prototype.go = function(111111){
     }
 }
 
-AsyncRequest.prototype.finish = function(){
+AsyncRequest.prototype.finish = function(3333333{
     this.status = 0;
     if(this.onfinished){
         this.onfinished();
