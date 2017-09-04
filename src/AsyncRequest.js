@@ -8,7 +8,7 @@ AsyncRequest.prototype.addRequest = function(func){
     this.reqs.push(func);
 }
 
-AsyncRequest.prototype.go = function(){
+AsyncRequest.prototype.go = function(111111){
     if(this.status!=0) return;
     
     this.status = 1;    
